@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surprise Tulip Romantis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+
+  <main class="scene">
+    <section class="hero">
+      <p class="eyebrow">A simple tulip surprise</p>
+      <h1>Hai Sayaaangggg!</h1>
+      <p class="subtitle">
+        Cobaa pencet tombol di bawah yaaa, nanti tulipnya mekar pelan dan tampil lebih manis.
+      </p>
+
+      <div class="actions">
+        <button class="surprise-button" id="surpriseButton">Pencet iniiii</button>
+        <button class="music-button" id="musicButton" aria-pressed="false">Nyalakan Musik</button>
+      </div>
+    </section>
+
+    <section class="flower-stage" aria-label="Animasi tulip sederhana">
+      <div class="glow-ring"></div>
+      <div class="flower-wrap" id="flowerWrap">
+        <div class="tulip">
+          <span class="tulip-petal tulip-petal-left"></span>
+          <span class="tulip-petal tulip-petal-center"></span>
+          <span class="tulip-petal tulip-petal-right"></span>
+          <span class="tulip-heart"></span>
+        </div>
+        <div class="stem"></div>
+        <div class="leaf leaf-left"></div>
+        <div class="leaf leaf-right"></div>
+      </div>
+    </section>
+
+    <section class="photo-gallery" id="photoGallery" aria-label="Foto kenangan">
+      <article class="photo-card card-a">
+        <div class="photo-frame">
+          <img src="images/IMG-20260719-WA0044.jpg" alt="Kenangan 1" />
+        </div>
+        <p>The Cutest.</p>
+      </article>
+      <article class="photo-card card-b">
+        <div class="photo-frame">
+          <img src="images/IMG-20260719-WA0045.jpg" alt="Kenangan 2" />
+        </div>
+        <p>The Prettiest.</p>
+      </article>
+      <article class="photo-card card-c">
+        <div class="photo-frame">
+          <img src="images/IMG-20260719-WA0042.jpg" alt="Kenangan 3" />
+        </div>
+        <p>The Most Cheerfull Girl.</p>
+      </article>
+    </section>
+  </main>
+
+  <audio id="romanticAudio" preload="none" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
